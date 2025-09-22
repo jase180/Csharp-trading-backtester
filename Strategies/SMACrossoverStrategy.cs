@@ -26,6 +26,8 @@ namespace TradingBacktester.Strategies
 
         public string StrategyName => $"SMA Crossover ({_shortPeriod}/{_longPeriod})";
 
+        public string StrategyDescription => $"BUY when {_shortPeriod}-day SMA crosses ABOVE {_longPeriod}-day SMA, SELL when {_shortPeriod}-day SMA crosses BELOW {_longPeriod}-day SMA";
+
         // CONSTRUCTOR
         public SMACrossoverStrategy(int shortPeriod, int longPeriod)
         {

@@ -21,5 +21,10 @@ namespace TradingBacktester.Strategies
         /// Name of this strategy (for reporting)
         /// </summary>
         string StrategyName { get; }
+
+        /// <summary>
+        /// Description of this strategy's logic (for user display)
+        /// </summary>
+        string StrategyDescription { get; }
     }
 }

@@ -43,7 +43,7 @@ namespace TradingBacktester
                 Console.WriteLine($"🧠 Configuring {strategy.StrategyName}...");
 
                 Console.WriteLine($"   Strategy: {strategy.StrategyName}");
-                Console.WriteLine("   Logic: BUY when 5-day SMA > 10-day SMA, SELL when 5-day SMA < 10-day SMA");
+                Console.WriteLine($"   Logic: {strategy.StrategyDescription}");
                 Console.WriteLine();
 
                 // STEP 3: SET UP BACKTESTING ENGINE
